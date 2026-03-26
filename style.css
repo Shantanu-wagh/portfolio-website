@@ -51,3 +51,49 @@ section {
   width: 250px;
   border-radius: 10px;
 }
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar hover */
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Hero styling */
+.hero h1 {
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.hero p {
+  color: gray;
+}
+
+/* Section titles */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
