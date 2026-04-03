@@ -39,13 +39,31 @@
       <p>Built using HTML & CSS</p>
     </div>
   </section>
+  <section id="weather">
+  <h2>Weather App</h2>
+
+  <input type="text" id="city" placeholder="Enter city name">
+  <button onclick="getWeather()" class="btn">Get Weather</button>
+
+  <p id="weatherResult"></p>
+</section>
 
   <!-- Contact -->
   <section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: shantanuwagh13@gmail.com</p>
-    <button onclick="contactMe()" class="btn">Contact Me</button>
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required><br><br>
+    <input type="email" id="email" placeholder="Your Email" required><br><br>
+    <textarea id="message" placeholder="Your Message" required></textarea><br><br>
+
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
+  <p id="response"></p>
   </section>
+
+  
 
 <script src="script.js"></script>
 </body>
