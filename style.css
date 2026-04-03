@@ -24,6 +24,9 @@ nav a {
   color: white;
   text-decoration: none;
 }
+nav a:hover {
+  color: #ffd700;
+}
 
 /* Hero */
 .hero {
@@ -143,4 +146,18 @@ footer {
   padding: 20px;
   background: #007bff;
   color: white;
+}
+.socials {
+  margin-top: 15px;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.socials a:hover {
+  text-decoration: underline;
 }
