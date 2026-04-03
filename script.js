@@ -23,8 +23,10 @@ async function getWeather() {
   let data = await response.json();
 
   if (data.cod === 200) {
-    document.getElementById("weatherResult").innerText =
-      `Temperature: ${data.main.temp}°C`;
+    document.getElementById("weatherResult").innerHTML =
+  `<h3>${city}</h3>
+   <p>🌡 Temperature: ${data.main.temp}°C</p>
+   <p>🌥 Weather: ${data.weather[0].main}</p>`;
   } else {
     document.getElementById("weatherResult").innerText =
       "City not found!";
